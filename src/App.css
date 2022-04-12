@@ -1,0 +1,74 @@
+body{
+  height:100vh;
+  width:100%;
+}
+.App{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap:30px;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.toolbar{
+  background: #f44336 !important;;
+  display:flex;
+  flex-direction:row;
+}
+
+.toolbar > a{
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 30px;
+  color: white;
+  display: flex;
+  align-items: center;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.toolbar > a:hover{
+  transform: scale(1.15)
+}
+
+.Drawer{
+  background: #f44336 !important;
+    display:flex;
+  flex-direction:column;
+  width:150px;
+  transition:all 0.2s;
+}
+
+.Drawer > a{
+  text-decoration: none;
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-left:10px;
+  color: white;
+  align-items: center;
+  cursor: pointer;
+  display:flex;
+}
+
+.MenuCollapse{
+  margin:10px 0px 20px 10px;
+  color:white;
+}
+
+.Admin{
+ margin-left:auto;
+}
+
+.icon{
+  font-size:19px !important;
+  margin-right:3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(170, 169, 169) !important;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
